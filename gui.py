@@ -1,5 +1,5 @@
 # TASKS:
-# - Criar um executável
+# - Criar um executável -> pyinstaller --onefile --noconsole .\gui.py
 # - Tratamento da integral
 # - Tratamento de limite superior e inferior
 
