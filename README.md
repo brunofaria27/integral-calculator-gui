@@ -1,2 +1,2 @@
 # integral-calculator-gui
-Integral calculator, developed in Python to calculate integral.
+Integral calculator, developed in Python || Java to calculate integral.
