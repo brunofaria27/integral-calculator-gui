@@ -11,7 +11,7 @@ class IntegralFracaoParcial {
      * Construtor para a integral caso não tenha um limite superior e inferior
      */
     public IntegralFracaoParcial(String integral) {
-        this.integral = integral;
+        this.setIntegral(integral);
         removeDenominadorAndNumerador(integral);    // Declarar os numeradores e denimadores da Integral
     }
 
@@ -19,9 +19,9 @@ class IntegralFracaoParcial {
      *  Construtor para a integral caso tenha um limite superior e inferior
      */
     public IntegralFracaoParcial(String integral, int limiteInferior, int limiteSuperior) {
-        this.integral = integral;
-        this.limiteInferior = limiteInferior;
-        this.limiteSuperior = limiteSuperior;
+        this.setIntegral(integral);
+        this.setLimiteInferior(limiteInferior);
+        this.setLimiteSuperior(limiteSuperior);
         removeDenominadorAndNumerador(integral);
     }
 
