@@ -65,7 +65,7 @@ def integralC(numerador, denominador1, denominador2, denominador3):
     else:
         concat3 = f'+ %.2f' %concat3
 
-    print("RESULTADO = " + str(concat2) + f"ln(x{denominador1:+})" + str(concat1) + f" * ln(x{denominador2:+})" + str(concat3) + f" * ln(x{denominador3:+})" + " + C")
+    print("RESULTADO = " + str(concat1) + f"ln(x{denominador1:+})" + str(concat3) + f" * ln(x{denominador2:+})" + str(concat2) + f" * ln(x{denominador3:+})" + " + C")
 
 def inverteParaZerar(valor1, valor2):
     novoValor = 0
